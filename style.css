@@ -14,9 +14,29 @@ body{
 
 
 svg{
+    margin-top: 50px;
     background-color: #DEF2F1;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
+    box-shadow: 50px 30px 45px rgba(5, 5, 5, 0.2);
+    border-radius: 35px;
     padding: 10px;
 }
 
+rect{
+    fill:#182C61
+}
+
+rect:hover{
+    fill: #FD7272
+}
+
+#note{
+    transform: rotate(90deg);
+    transform-origin: 4px 50px;
+}
+
+
+#tooltip{
+    font-size: 40px;
+    position: absolute;
+    color: #2C3A47
+}
